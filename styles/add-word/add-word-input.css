@@ -1,0 +1,18 @@
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.word-to-add {
+  vertical-align: middle;
+  resize: none;
+  padding-top: 10px;
+  text-align: center;
+  width: 80%;
+  border-style: none;
+  height: 50vh;
+  font-size:2rem ;
+  line-height: 360px;
+  border-radius: 25px;
+  overflow: hidden;
+}

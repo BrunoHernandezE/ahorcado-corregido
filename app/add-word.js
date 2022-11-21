@@ -1,10 +1,12 @@
-const addWordButton = document.querySelector(".buttons--add-word")
-const returnButton = document.querySelector(".buttons--return")
 
+const addWordButton = document.querySelector(".buttons--add-word");
+const returnButton = document.querySelector(".buttons--return");
+const wordToAdd = document.querySelector(".word-to-add");
 
 addWordButton.addEventListener("click", () => {
-  console.log(words);
+  console.log(wordToAdd.value);
 })
+
 returnButton.addEventListener("click", () => {
   location.href = "../index.html";
 });

@@ -1,9 +1,3 @@
-const startGame = document.querySelector(".buttons--start");
-const goBack = document.querySelector(".buttons--return");
-
-let canvas = document.getElementById("game--board");
-let drawer = canvas.getContext("2d");
-
 const words = [
   "PASTILLA",
   "CELULAR",
@@ -16,6 +10,12 @@ const words = [
   "AGUA",
   "RADIO"
 ];
+const startGame = document.querySelector(".buttons--start");
+const goBack = document.querySelector(".buttons--return");
+
+let canvas = document.getElementById("game--board");
+let drawer = canvas.getContext("2d");
+
 
 const pickWord = () => {
   return words[Math.floor(Math.random() * words.length)]
