@@ -1,0 +1,12 @@
+.logo {
+  position: relative;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo--image {
+  position: relative;
+  border-radius: 25px;
+  width: 90%;
+}

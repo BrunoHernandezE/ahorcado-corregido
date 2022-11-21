@@ -1,0 +1,28 @@
+:root {
+  --primary-button-color: #9d9d9d;
+  --secondary-button-color: #dcdcdc;
+}
+.buttons {
+  position: relative;
+  top: 157px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.button {
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  height: 5rem;
+  width: 90%;
+  cursor: pointer;
+  border: 3px solid #000;
+}
+.primary-button {
+  background-color: var(--primary-button-color);
+}
+.secondary-button {
+  background-color: var(--secondary-button-color);
+}

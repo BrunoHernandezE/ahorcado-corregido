@@ -1,0 +1,13 @@
+.game--area {
+  margin: 10px, 0, 10px, 0;
+
+}
+#game--board {
+  width: 100%;
+  border-radius: 25px;
+}
+.header--logo {
+  width: 100px;
+  border-radius: 25px;
+  margin: .5rem;
+}
