@@ -1,15 +1,5 @@
-const words = [
-  "PASTILLA",
-  "CELULAR",
-  "CARRO",
-  "CASA",
-  "CUBO",
-  "PERSONA",
-  "PERRO",
-  "TERMO",
-  "AGUA",
-  "RADIO"
-];
+import { words } from "./words.js";
+
 const startGame = document.querySelector(".buttons--start");
 const goBack = document.querySelector(".buttons--return");
 
