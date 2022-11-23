@@ -1,4 +1,4 @@
-export const words = [
+const words = [
   "PASTILLA",
   "CELULAR",
   "CARRO",
@@ -10,3 +10,4 @@ export const words = [
   "AGUA",
   "RADIO"
 ];
+localStorage.setItem("words", JSON.stringify(words))

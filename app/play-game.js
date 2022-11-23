@@ -1,5 +1,5 @@
-import { words } from "./words.js";
-
+let wordsList = localStorage.getItem("words")
+wordsList = JSON.parse(wordsList)
 const startGame = document.querySelector(".buttons--start");
 const goBack = document.querySelector(".buttons--return");
 
@@ -8,7 +8,7 @@ let drawer = canvas.getContext("2d");
 
 
 const pickWord = () => {
-  return words[Math.floor(Math.random() * words.length)]
+  return wordsList[Math.floor(Math.random() * wordsList.length)]
 }
 
 const drawGallow = () => {
@@ -103,6 +103,8 @@ const drawLines = () => {
 
 const startBoard = () => {
   let word = pickWord()
+  // console.log(JSON.stringify(words))
+  console.log(wordsList)
   drawer.fillStyle = "#232323";
   drawer.fillRect(0, 0, canvas.clientHeight, canvas.clientWidth)
   drawGallow()
