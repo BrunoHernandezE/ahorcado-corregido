@@ -16,3 +16,10 @@ main{
   border-radius: 25px;
   overflow: hidden;
 }
+#ad-icon {
+  color: #bbb;
+}
+#ad-label {
+  color: #ccc;
+
+}

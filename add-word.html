@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/add-word/add-word-input.css">
     <link rel="stylesheet" href="styles/buttons/buttons-play-game.css">
     <script src="./app/add-word.js" type="module" defer></script>
+    <script src="./app/words.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/a6c2f0428b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,6 +22,9 @@
         <textarea class="word-to-add" autofocus="true" placeholder="Hello World" maxlength="8"></textarea>
         <!-- <input class="word-to-add" type="text" autofocus="true" placeholder="ALURA"> -->
     </main>
+    <i class="fa-solid fa-circle-exclamation" id="ad-icon"></i>
+    <label id="ad-label">Max. 8 letras, sin mayusculas</label>
+    
     <div class="buttons">
         <button class="primary-button buttons--add-word button" >Agregar Palabra</button>
         <button class="secondary-button buttons--return button">Regresar</button>
